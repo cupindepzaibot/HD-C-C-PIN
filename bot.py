@@ -14,7 +14,7 @@ from telegram.ext import (
 
 # 🛠️ Cấu hình
 BOT_TOKEN = os.getenv("BOT_TOKEN")
-ADMIN_ID = int(os.getenv("ADMIN_ID", "123456789"))  # Thay bằng Telegram ID thật của bạn
+ADMIN_ID = 7903231043              # 👈 Đây là Telegram ID của bạn
 
 # 📂 File lưu trạng thái phản hồi
 REPLY_FILE = "reply_targets.json"
@@ -114,3 +114,4 @@ if __name__ == '__main__':
 
     print("🤖 Bot đang chạy...")
     app.run_polling()
+
